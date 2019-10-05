@@ -1,16 +1,16 @@
-=======2019年10月5日bug修复日志============
-1.修复了Api.py文件中的函数名错误：
-    from Base.BaseGetExcel import read_excels_data
-    ls = read_excels_data(Element.API_FILES)[0]#读取用例excel，得到一个列表
-2.修复了BaseRunner.py文件中的get_session()函数提供的密码错误：
-明文账号：rj09
-明文密码：123456
-3.运行脚本后，填入demo提供的请求地址：https://cloudapi.usr.cn/usrCloud/user/login
-输入明文账号：rj09
-输入明文密码：123456
-脚本会自动进行MD5加密，然后向服务器进行身份认证，请求合法token。
-4.更多使用问题，参阅使用手册.pdf
-=======================================
+=======2019年10月5日bug修复日志============  
+1.修复了Api.py文件中的函数名错误：  
+    from Base.BaseGetExcel import read_excels_data  
+    ls = read_excels_data(Element.API_FILES)[0]#读取用例excel，得到一个列表  
+2.修复了BaseRunner.py文件中的get_session()函数提供的密码错误：  
+明文账号：rj09  
+明文密码：123456  
+3.运行脚本后，填入demo提供的请求地址：https://cloudapi.usr.cn/usrCloud/user/login  
+输入明文账号：rj09  
+输入明文密码：123456  
+脚本会自动进行MD5加密，然后向服务器进行身份认证，请求合法token。  
+4.更多使用问题，参阅使用手册.pdf  
+=======================================  
 
 
 # Interface-Automation-Test
