@@ -18,6 +18,8 @@ def get_session():
     req = requests.session()
     #url = "https://cloudapi.usr.cn/usrCloud/user/login"  # 此处填写登录接口
     #data = {'account': 'rj09', 'password': '11da5e2caad4d291d16d60c62b0b43c6'}  # json格式输入用户名和密码。密码为MD5加密后
+    #明文账号：rj09
+    #明文密码：123456
     url = input("请输入登录URL:")
     account = input("请输入账号:")
     password = input("请输入密码:")
