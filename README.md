@@ -1,3 +1,6 @@
+mano测试 优先级为1
+
+
 =======2019年10月5日bug修复日志============  
 1.修复了Api.py文件中的函数名错误：  
         from Base.BaseGetExcel import read_excels_data  
